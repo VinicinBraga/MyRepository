@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id='trybe'>
+    Vamos aprender a usar os eventos?
+  </p>
+
+  <p id='clicar'>Paragrafo para ser clicado</p>
+
+<div>
+  <button id='mouse-over-leave'>Botão para ter o mouse passando em cima e removido</button>
+</div>
+<script>
+  let clickP = document.getElementById('clicar');
+  clickP.addEventListener('click', recebeClick);
+
+  function recebeClick(Origem) {
+  console.log(Origem.target)
+  console.log(Origem.type)
+  }
+
+  let mouseOverButton = document.getElementById('mouse-over-leave');
+  mouseOverButton.addEventListener('mouseover', mouseEmCima)
+  mouseOverButton.addEventListener('mouseleave', mouseSaiu)
+
+  
+  
+  
+  
+  function mouseEmCima(evento) {
+    console.log('Mouse passou aqui filhão')
+    console.log(evento.type)
+  }
+
+  function mouseSaiu(evento) {
+    console.log('Mouse saiu daqui já, nenem')
+    console.log(evento.type)
+  }
+  
+</script>
+</body>

@@ -1,0 +1,28 @@
+//Node é uma runtime do JS
+
+//Api para manipulacao do DOM.
+
+NPM - nome do gerenciador
+
+//NPM init - Serve par criarmos um novo pacote JS - Ele cria um pacote packge Json
+    //Esse package.json - Onde ficam todas as informações do nosso pacote
+    //Além do NPM ser um CLI ele também é um registro.
+    //Ou seja: um seite que ospeda varios pacotes(npmjs.com)
+            L> Esses pacotes são de todos os tipos e vem com uma documentação completa(README.md)
+    //O site do NPM ainda tras outros dados como os colaboladores, repositorios....etc
+
+//NPM install
+    //Ele instala um pacote para que possamos travalhar com aquele pacote
+    //Esse package-lock.json é responsavel por dizer o npm quais foram as dependencias que ele instalou.
+  
+
+//NPM publish
+    //gera um arquivo compactado e publica no registro para que outras pessoas possam baixar
+
+//Outro ponto importante é que temps no package.json a prorpiedade "main" que indica o arquivo 'index.js'.
+    //Essa propriedade main é o entry point do nosso pacote, sendo ele(index.js) o arquivo que vai ser carregado quando importamos o pacote.
+
+
+//NPM rm - Permite que a gente desinstale o pacote.
+
+

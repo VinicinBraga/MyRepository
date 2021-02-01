@@ -1,0 +1,15 @@
+
+  body {
+    font-family:sans-serif;
+    color:dimgrey;
+  }
+
+  h1 { 
+    background-color:mediumseagreen;
+    align-content: flex-end;
+    color: white;
+  }
+
+  h2{
+    color:mediumseagreen;
+  }

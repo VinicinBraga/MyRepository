@@ -1,0 +1,46 @@
+body {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #333;
+}
+
+header {
+  border: 5px solid red;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+nav {
+  border: 5px solid red;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+main {
+  border: 5px solid red;
+  padding: 50px;
+  
+}
+article{
+  border: 5px solid red;
+  padding: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 50%;
+}
+section{
+  border: 5px solid red;
+  padding: 5px;
+}
+aside{
+  border: 5px solid red;
+  padding: 5px;
+  float: right;
+  margin-bottom: 5px;
+
+  width: 50%;
+}
+footer{
+  margin-top: 600px;
+  border: 5px solid red;
+  padding: 5px;
+}

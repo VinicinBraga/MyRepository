@@ -1,0 +1,58 @@
+//Iniciamos pelo APP.js e apagamos o que não queremos.
+//No caso de um formulario - Criamos no APP.js os inputs e ou buttons que precisamos.
+
+class App() extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      nome: '',
+      email: '',
+      password: '',
+      movie:''
+    }
+    this.handleChange=this.handleChange.bind(this)
+  }
+  handleChange (event) => 
+    this.setState(
+      {
+      [event.target.id]:event.target.value //event(responsavel por chamar a funcao).target(alvo do evento).value(valor que eu quero "nesse caso", pois podia ser "id" " "type" "parentNode"...
+      }
+    )   
+  }
+  render {  
+    return (  
+      <div>
+      <form>
+        <input 
+          type="text"
+          id="nome" 
+          onChange={this.handleChange} //(O onchange recebe um função, pois quando ele ocorre o objetivo é que a função seja chamada) 
+          placeholder = "Nome"
+        />
+        <input 
+          type="email"
+          id="email"
+          onChange={this.handleChange}
+          placeholder = "E-maisl"
+        />
+        <input
+          type="password" 
+          id="Password" 
+          onChange={this.handleChange}
+          placeholder = "Password
+        />
+        <input 
+          type="text"
+          id="movie"
+          onChange={this.handleChange}
+          placeholder = "Filme favorito"
+        />
+        <button 
+          type="submit">OK //(O butão do tipo submit da um refresh na pagina. Sendo assim precisa ser tratado)
+        </button>
+      </form>
+
+      <div>
+    );
+  }  
+}
