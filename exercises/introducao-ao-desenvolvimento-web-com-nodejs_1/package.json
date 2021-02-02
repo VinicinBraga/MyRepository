@@ -1,7 +1,7 @@
 {
-  "name": "imcjs",
+  "name": "imc",
   "version": "1.0.0",
-  "description": "Meu primeiro Pacote feito no Nodejs",
+  "description": "Primeiro pacote Nodejs da minha vida",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
