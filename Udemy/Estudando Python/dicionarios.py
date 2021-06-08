@@ -1,5 +1,5 @@
 """
-Dicionarios são coleções do ticpo chave/valor
+Dicionarios são coleções do tipo chave/valor
 E são representados por chaves '{}'
 
 """
